@@ -1,0 +1,19 @@
+{
+  "name": "wifi-scan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "ee-first": "^1.1.1",
+    "express": "^4.13.4",
+    "ms": "^0.7.1",
+    "node-wifi-scanner": "^0.1.0",
+    "unpipe": "^1.0.0"
+  }
+}
