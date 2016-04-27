@@ -1,8 +1,11 @@
 var myApp = angular.module('myApp', [])
 myApp.controller('Controller', function ($scope, $http) {
   $scope.message = 'Hello AngularJS'
-  $http.get('../index.js')
+  $scope.num += 1
+  $http.get('./data')
     .then(function (res) {
-      $scope.myWelcome = res.data
+      $scope.wifidata = res.data
+      console.log(res.data)
     })
+
 })
