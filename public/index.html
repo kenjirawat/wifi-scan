@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <title>Wifi scanner</title>
     <script src="//code.jquery.com/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.6/locale/th.js"></script>
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js"></script>
+
+      <script src="Chart.js"></script>
       <script src="app.js"></script>
+
+
 </head>
 <body ng-app="myApp">
+
+
   <div ng-controller="Controller" >
     <h2>Wifi scanner</h2>
-
+    <!-- bar chart canvas element -->
      <!-- <div  ng-repeat = "data in wifidata"  class = "row">
         <div class="col-md-3">{{data.ssid}}</div>
         <div class="col-md-3">{{data.rssi}}</div>
@@ -38,6 +41,9 @@
       <td>{{data.channel}}</td>
   </tr>
     </table>
+     <div class="graph">
+      <canvas id="iot" width="1500" height="200	"></canvas>
+    </div>
 
 
   </div>

@@ -2,53 +2,35 @@
 1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
 1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
 1 verbose cli   'install',
-1 verbose cli   'chart.js',
+1 verbose cli   'Chart',
 1 verbose cli   '--save' ]
 2 info using npm@2.14.12
 3 info using node@v4.2.6
 4 verbose install initial load of C:\Users\kenji\Desktop\monitor\wifi-scan\package.json
-5 warn package.json wifi-scan@1.0.0 No description
-6 warn package.json wifi-scan@1.0.0 No repository field.
-7 warn package.json wifi-scan@1.0.0 No README data
-8 verbose installManyTop reading scoped package data from C:\Users\kenji\Desktop\monitor\wifi-scan\node_modules\body-parser\package.json
-9 verbose installManyTop reading scoped package data from C:\Users\kenji\Desktop\monitor\wifi-scan\node_modules\ee-first\package.json
-10 verbose installManyTop reading scoped package data from C:\Users\kenji\Desktop\monitor\wifi-scan\node_modules\express\package.json
-11 verbose installManyTop reading scoped package data from C:\Users\kenji\Desktop\monitor\wifi-scan\node_modules\ms\package.json
-12 verbose installManyTop reading scoped package data from C:\Users\kenji\Desktop\monitor\wifi-scan\node_modules\node-wifi-scanner\package.json
-13 verbose installManyTop reading scoped package data from C:\Users\kenji\Desktop\monitor\wifi-scan\node_modules\unpipe\package.json
-14 info package.json ms@0.7.1 No license field.
-15 verbose readDependencies loading dependencies from C:\Users\kenji\Desktop\monitor\wifi-scan\package.json
-16 silly cache add args [ 'chart.js', null ]
-17 verbose cache add spec chart.js
-18 silly cache add parsed spec Result {
-18 silly cache add   raw: 'chart.js',
-18 silly cache add   scope: null,
-18 silly cache add   name: null,
-18 silly cache add   rawSpec: 'chart.js',
-18 silly cache add   spec: 'C:\\Users\\kenji\\Desktop\\monitor\\wifi-scan\\public\\chart.js',
-18 silly cache add   type: 'local' }
-19 silly addLocalTarball shasum (computed) 11e1af6331df74c72dab71d5f76fcb0b7acba89b
-20 verbose addTmpTarball C:\Users\kenji\Desktop\monitor\wifi-scan\public\chart.js not in flight; adding
-21 verbose addTmpTarball validating metadata from C:\Users\kenji\Desktop\monitor\wifi-scan\public\chart.js
-22 verbose tar unpack C:\Users\kenji\Desktop\monitor\wifi-scan\public\chart.js
-23 verbose tar unpacking to C:\Users\kenji\.babun\cygwin\tmp\npm-3640-da4a8683\unpack-9c11e94ec6c4
-24 silly gentlyRm C:\Users\kenji\.babun\cygwin\tmp\npm-3640-da4a8683\unpack-9c11e94ec6c4 is being purged
-25 verbose gentlyRm don't care about contents; nuking C:\Users\kenji\.babun\cygwin\tmp\npm-3640-da4a8683\unpack-9c11e94ec6c4
-26 silly gunzTarPerm modes [ '777', '666' ]
-27 error not a package C:\Users\kenji\Desktop\monitor\wifi-scan\public\chart.js
-28 error addLocal Could not install C:\Users\kenji\Desktop\monitor\wifi-scan\public\chart.js
-29 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\kenji\.babun\cygwin\tmp\npm-3640-da4a8683\unpack-9c11e94ec6c4\package.json'
-29 verbose stack     at Error (native)
-30 verbose cwd C:\Users\kenji\Desktop\monitor\wifi-scan\public
-31 error Windows_NT 6.2.9200
-32 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "chart.js" "--save"
-33 error node v4.2.6
-34 error npm  v2.14.12
-35 error path C:\Users\kenji\.babun\cygwin\tmp\npm-3640-da4a8683\unpack-9c11e94ec6c4\package.json
-36 error code ENOENT
-37 error errno -4058
-38 error syscall open
-39 error enoent ENOENT: no such file or directory, open 'C:\Users\kenji\.babun\cygwin\tmp\npm-3640-da4a8683\unpack-9c11e94ec6c4\package.json'
-39 error enoent This is most likely not a problem with npm itself
-39 error enoent and is related to npm not being able to find a file.
-40 verbose exit [ -4058, true ]
+5 verbose stack Error: Failed to parse json
+5 verbose stack Trailing comma in object at 15:3
+5 verbose stack   }
+5 verbose stack   ^
+5 verbose stack     at parseError (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:379:11)
+5 verbose stack     at parseJson (C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:68:23)
+5 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\read-package-json\read-json.js:48:5
+5 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\graceful-fs.js:76:16
+5 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:380:3)
+6 verbose cwd C:\Users\kenji\Desktop\monitor\wifi-scan\public
+7 error Windows_NT 6.2.9200
+8 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "Chart" "--save"
+9 error node v4.2.6
+10 error npm  v2.14.12
+11 error file C:\Users\kenji\Desktop\monitor\wifi-scan\package.json
+12 error code EJSONPARSE
+13 error Failed to parse json
+13 error Trailing comma in object at 15:3
+13 error   }
+13 error   ^
+14 error File: C:\Users\kenji\Desktop\monitor\wifi-scan\package.json
+15 error Failed to parse package.json data.
+15 error package.json must be actual JSON, not just JavaScript.
+15 error
+15 error This is not a bug in npm.
+15 error Tell the package author to fix their package.json file. JSON.parse
+16 verbose exit [ 1, true ]

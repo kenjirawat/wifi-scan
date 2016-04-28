@@ -1,0 +1,770 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Users\\kenji\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'angular-chart.js' ]
+2 info using npm@3.8.7
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData angular-chart.js
+8 silly fetchNamedPackageData angular-chart.js
+9 silly mapToRegistry name angular-chart.js
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'angular-chart.js',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   name: 'angular-chart.js',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/angular-chart.js
+14 verbose request uri https://registry.npmjs.org/angular-chart.js
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:55:26 AM
+17 verbose request id 026837aca052eea7
+18 verbose etag "62UL3YR64GGRO0N6FLD11SLOE"
+19 http request GET https://registry.npmjs.org/angular-chart.js
+20 http 304 https://registry.npmjs.org/angular-chart.js
+21 verbose headers { date: 'Thu, 28 Apr 2016 04:56:12 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   etag: '"62UL3YR64GGRO0N6FLD11SLOE"',
+21 verbose headers   age: '46',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+21 verbose headers   'x-cache': 'HIT',
+21 verbose headers   'x-cache-hits': '1',
+21 verbose headers   'x-timer': 'S1461819372.175080,VS0,VE0',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Thu, 28 Apr 2016 04:56:12 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     etag: '"62UL3YR64GGRO0N6FLD11SLOE"',
+22 silly get     age: '46',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-sin6921-SIN',
+22 silly get     'x-cache': 'HIT',
+22 silly get     'x-cache-hits': '1',
+22 silly get     'x-timer': 'S1461819372.175080,VS0,VE0',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 verbose etag https://registry.npmjs.org/angular-chart.js from cache
+24 verbose get saving angular-chart.js to C:\Users\kenji\AppData\Roaming\npm-cache\registry.npmjs.org\angular-chart.js\.cache.json
+25 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule angular-chart.js@1.0.0-alpha6 checking installable status
+39 silly cache add args [ 'angular-chart.js', null ]
+40 verbose cache add spec angular-chart.js
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'angular-chart.js',
+41 silly cache add   scope: null,
+41 silly cache add   name: 'angular-chart.js',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed angular-chart.js@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for angular-chart.js
+44 info addNameTag [ 'angular-chart.js', 'latest' ]
+45 silly mapToRegistry name angular-chart.js
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry data Result {
+48 silly mapToRegistry   raw: 'angular-chart.js',
+48 silly mapToRegistry   scope: null,
+48 silly mapToRegistry   name: 'angular-chart.js',
+48 silly mapToRegistry   rawSpec: '',
+48 silly mapToRegistry   spec: 'latest',
+48 silly mapToRegistry   type: 'tag' }
+49 silly mapToRegistry uri https://registry.npmjs.org/angular-chart.js
+50 verbose addNameTag registry:https://registry.npmjs.org/angular-chart.js not in flight; fetching
+51 verbose get https://registry.npmjs.org/angular-chart.js not expired, no request
+52 silly addNameTag next cb for angular-chart.js with tag latest
+53 silly addNamed angular-chart.js@1.0.0-alpha6
+54 verbose addNamed "1.0.0-alpha6" is a plain semver version for angular-chart.js
+55 silly cache afterAdd angular-chart.js@1.0.0-alpha6
+56 verbose afterAdd C:\Users\kenji\AppData\Roaming\npm-cache\angular-chart.js\1.0.0-alpha6\package\package.json not in flight; writing
+57 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+58 verbose afterAdd C:\Users\kenji\AppData\Roaming\npm-cache\angular-chart.js\1.0.0-alpha6\package\package.json written
+59 silly fetchNamedPackageData angular
+60 silly mapToRegistry name angular
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry data Result {
+63 silly mapToRegistry   raw: 'angular',
+63 silly mapToRegistry   scope: null,
+63 silly mapToRegistry   name: 'angular',
+63 silly mapToRegistry   rawSpec: '',
+63 silly mapToRegistry   spec: 'latest',
+63 silly mapToRegistry   type: 'tag' }
+64 silly mapToRegistry uri https://registry.npmjs.org/angular
+65 silly fetchNamedPackageData chart.js
+66 silly mapToRegistry name chart.js
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry data Result {
+69 silly mapToRegistry   raw: 'chart.js',
+69 silly mapToRegistry   scope: null,
+69 silly mapToRegistry   name: 'chart.js',
+69 silly mapToRegistry   rawSpec: '',
+69 silly mapToRegistry   spec: 'latest',
+69 silly mapToRegistry   type: 'tag' }
+70 silly mapToRegistry uri https://registry.npmjs.org/chart.js
+71 verbose request uri https://registry.npmjs.org/angular
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 11:55:27 AM
+74 verbose etag "5NCQ042PIO2CD85J1AWFD5643"
+75 http request GET https://registry.npmjs.org/angular
+76 verbose request uri https://registry.npmjs.org/chart.js
+77 verbose request no auth needed
+78 info attempt registry request try #1 at 11:55:27 AM
+79 verbose etag "BQ0ALW9AG4369N9K1TSV66WW2"
+80 http request GET https://registry.npmjs.org/chart.js
+81 http 304 https://registry.npmjs.org/angular
+82 verbose headers { date: 'Thu, 28 Apr 2016 04:56:12 GMT',
+82 verbose headers   via: '1.1 varnish',
+82 verbose headers   'cache-control': 'max-age=300',
+82 verbose headers   etag: '"5NCQ042PIO2CD85J1AWFD5643"',
+82 verbose headers   age: '248',
+82 verbose headers   connection: 'keep-alive',
+82 verbose headers   'x-served-by': 'cache-sin6923-SIN',
+82 verbose headers   'x-cache': 'HIT',
+82 verbose headers   'x-cache-hits': '2',
+82 verbose headers   'x-timer': 'S1461819372.601789,VS0,VE0',
+82 verbose headers   vary: 'Accept-Encoding' }
+83 silly get cb [ 304,
+83 silly get   { date: 'Thu, 28 Apr 2016 04:56:12 GMT',
+83 silly get     via: '1.1 varnish',
+83 silly get     'cache-control': 'max-age=300',
+83 silly get     etag: '"5NCQ042PIO2CD85J1AWFD5643"',
+83 silly get     age: '248',
+83 silly get     connection: 'keep-alive',
+83 silly get     'x-served-by': 'cache-sin6923-SIN',
+83 silly get     'x-cache': 'HIT',
+83 silly get     'x-cache-hits': '2',
+83 silly get     'x-timer': 'S1461819372.601789,VS0,VE0',
+83 silly get     vary: 'Accept-Encoding' } ]
+84 verbose etag https://registry.npmjs.org/angular from cache
+85 verbose get saving angular to C:\Users\kenji\AppData\Roaming\npm-cache\registry.npmjs.org\angular\.cache.json
+86 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+87 http 304 https://registry.npmjs.org/chart.js
+88 verbose headers { date: 'Thu, 28 Apr 2016 04:56:12 GMT',
+88 verbose headers   via: '1.1 varnish',
+88 verbose headers   'cache-control': 'max-age=300',
+88 verbose headers   etag: '"BQ0ALW9AG4369N9K1TSV66WW2"',
+88 verbose headers   age: '40',
+88 verbose headers   connection: 'keep-alive',
+88 verbose headers   'x-served-by': 'cache-sin6922-SIN',
+88 verbose headers   'x-cache': 'HIT',
+88 verbose headers   'x-cache-hits': '1',
+88 verbose headers   'x-timer': 'S1461819372.609232,VS0,VE0',
+88 verbose headers   vary: 'Accept-Encoding' }
+89 silly get cb [ 304,
+89 silly get   { date: 'Thu, 28 Apr 2016 04:56:12 GMT',
+89 silly get     via: '1.1 varnish',
+89 silly get     'cache-control': 'max-age=300',
+89 silly get     etag: '"BQ0ALW9AG4369N9K1TSV66WW2"',
+89 silly get     age: '40',
+89 silly get     connection: 'keep-alive',
+89 silly get     'x-served-by': 'cache-sin6922-SIN',
+89 silly get     'x-cache': 'HIT',
+89 silly get     'x-cache-hits': '1',
+89 silly get     'x-timer': 'S1461819372.609232,VS0,VE0',
+89 silly get     vary: 'Accept-Encoding' } ]
+90 verbose etag https://registry.npmjs.org/chart.js from cache
+91 verbose get saving chart.js to C:\Users\kenji\AppData\Roaming\npm-cache\registry.npmjs.org\chart.js\.cache.json
+92 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+93 silly resolveWithNewModule angular@1.5.5 checking installable status
+94 silly cache add args [ 'angular@1.x', null ]
+95 verbose cache add spec angular@1.x
+96 silly cache add parsed spec Result {
+96 silly cache add   raw: 'angular@1.x',
+96 silly cache add   scope: null,
+96 silly cache add   name: 'angular',
+96 silly cache add   rawSpec: '1.x',
+96 silly cache add   spec: '>=1.0.0 <2.0.0',
+96 silly cache add   type: 'range' }
+97 silly addNamed angular@>=1.0.0 <2.0.0
+98 verbose addNamed ">=1.0.0 <2.0.0" is a valid semver range for angular
+99 silly addNameRange { name: 'angular', range: '>=1.0.0 <2.0.0', hasData: false }
+100 silly mapToRegistry name angular
+101 silly mapToRegistry using default registry
+102 silly mapToRegistry registry https://registry.npmjs.org/
+103 silly mapToRegistry data Result {
+103 silly mapToRegistry   raw: 'angular',
+103 silly mapToRegistry   scope: null,
+103 silly mapToRegistry   name: 'angular',
+103 silly mapToRegistry   rawSpec: '',
+103 silly mapToRegistry   spec: 'latest',
+103 silly mapToRegistry   type: 'tag' }
+104 silly mapToRegistry uri https://registry.npmjs.org/angular
+105 verbose addNameRange registry:https://registry.npmjs.org/angular not in flight; fetching
+106 silly resolveWithNewModule chart.js@2.0.2 checking installable status
+107 silly cache add args [ 'chart.js@~2.0.0', null ]
+108 verbose cache add spec chart.js@~2.0.0
+109 silly cache add parsed spec Result {
+109 silly cache add   raw: 'chart.js@~2.0.0',
+109 silly cache add   scope: null,
+109 silly cache add   name: 'chart.js',
+109 silly cache add   rawSpec: '~2.0.0',
+109 silly cache add   spec: '>=2.0.0 <2.1.0',
+109 silly cache add   type: 'range' }
+110 silly addNamed chart.js@>=2.0.0 <2.1.0
+111 verbose addNamed ">=2.0.0 <2.1.0" is a valid semver range for chart.js
+112 silly addNameRange { name: 'chart.js', range: '>=2.0.0 <2.1.0', hasData: false }
+113 silly mapToRegistry name chart.js
+114 silly mapToRegistry using default registry
+115 silly mapToRegistry registry https://registry.npmjs.org/
+116 silly mapToRegistry data Result {
+116 silly mapToRegistry   raw: 'chart.js',
+116 silly mapToRegistry   scope: null,
+116 silly mapToRegistry   name: 'chart.js',
+116 silly mapToRegistry   rawSpec: '',
+116 silly mapToRegistry   spec: 'latest',
+116 silly mapToRegistry   type: 'tag' }
+117 silly mapToRegistry uri https://registry.npmjs.org/chart.js
+118 verbose addNameRange registry:https://registry.npmjs.org/chart.js not in flight; fetching
+119 verbose get https://registry.npmjs.org/angular not expired, no request
+120 silly addNameRange number 2 { name: 'angular', range: '>=1.0.0 <2.0.0', hasData: true }
+121 silly addNameRange versions [ 'angular',
+121 silly addNameRange   [ '0.0.1',
+121 silly addNameRange     '0.0.1-1',
+121 silly addNameRange     '0.0.1-2',
+121 silly addNameRange     '0.0.2',
+121 silly addNameRange     '0.0.3',
+121 silly addNameRange     '0.0.4',
+121 silly addNameRange     '1.0.0',
+121 silly addNameRange     '1.0.1',
+121 silly addNameRange     '1.0.2',
+121 silly addNameRange     '1.0.3',
+121 silly addNameRange     '1.0.4',
+121 silly addNameRange     '1.0.5',
+121 silly addNameRange     '1.0.6',
+121 silly addNameRange     '1.0.7',
+121 silly addNameRange     '1.0.8',
+121 silly addNameRange     '1.1.0',
+121 silly addNameRange     '1.1.1',
+121 silly addNameRange     '1.1.2',
+121 silly addNameRange     '1.1.3',
+121 silly addNameRange     '1.1.4',
+121 silly addNameRange     '1.1.5',
+121 silly addNameRange     '1.2.0',
+121 silly addNameRange     '1.2.1',
+121 silly addNameRange     '1.2.2',
+121 silly addNameRange     '1.2.3',
+121 silly addNameRange     '1.2.4',
+121 silly addNameRange     '1.2.5',
+121 silly addNameRange     '1.2.6',
+121 silly addNameRange     '1.2.7',
+121 silly addNameRange     '1.2.8',
+121 silly addNameRange     '1.2.9',
+121 silly addNameRange     '1.2.10',
+121 silly addNameRange     '1.2.11',
+121 silly addNameRange     '1.2.12',
+121 silly addNameRange     '1.2.13',
+121 silly addNameRange     '1.2.14',
+121 silly addNameRange     '1.2.15',
+121 silly addNameRange     '1.2.16',
+121 silly addNameRange     '1.2.17',
+121 silly addNameRange     '1.2.18',
+121 silly addNameRange     '1.2.19',
+121 silly addNameRange     '1.2.20',
+121 silly addNameRange     '1.2.21',
+121 silly addNameRange     '1.2.22',
+121 silly addNameRange     '1.2.23',
+121 silly addNameRange     '1.3.0-rc.5',
+121 silly addNameRange     '1.3.0',
+121 silly addNameRange     '1.3.1',
+121 silly addNameRange     '1.3.2',
+121 silly addNameRange     '1.3.3',
+121 silly addNameRange     '1.3.4-build.3588',
+121 silly addNameRange     '1.2.27',
+121 silly addNameRange     '1.3.4',
+121 silly addNameRange     '1.3.5',
+121 silly addNameRange     '1.3.6',
+121 silly addNameRange     '1.3.7',
+121 silly addNameRange     '1.2.28',
+121 silly addNameRange     '1.3.8',
+121 silly addNameRange     '1.4.0-beta.0',
+121 silly addNameRange     '1.3.9',
+121 silly addNameRange     '1.3.10',
+121 silly addNameRange     '1.4.0-beta.1',
+121 silly addNameRange     '1.4.0-beta.2',
+121 silly addNameRange     '1.3.11',
+121 silly addNameRange     '1.4.0-beta.3',
+121 silly addNameRange     '1.3.12',
+121 silly addNameRange     '1.3.13',
+121 silly addNameRange     '1.4.0-beta.4',
+121 silly addNameRange     '1.3.14',
+121 silly addNameRange     '1.4.0-beta.5',
+121 silly addNameRange     '1.4.0-beta.6',
+121 silly addNameRange     '1.3.15',
+121 silly addNameRange     '1.4.0-rc.0',
+121 silly addNameRange     '1.4.0-rc.1',
+121 silly addNameRange     '1.4.0-rc.2',
+121 silly addNameRange     '1.4.0',
+121 silly addNameRange     '1.3.16',
+121 silly addNameRange     '1.4.1',
+121 silly addNameRange     '1.4.2',
+121 silly addNameRange     '1.3.17',
+121 silly addNameRange     '1.4.3',
+121 silly addNameRange     '1.4.4',
+121 silly addNameRange     '1.3.18',
+121 silly addNameRange     '1.4.5',
+121 silly addNameRange     '1.3.19',
+121 silly addNameRange     '1.4.6',
+121 silly addNameRange     '1.5.0-beta.0',
+121 silly addNameRange     '1.2.29',
+121 silly addNameRange     '1.3.20',
+121 silly addNameRange     '1.4.7',
+121 silly addNameRange     '1.5.0-beta.2',
+121 silly addNameRange     '1.4.8',
+121 silly addNameRange     '1.5.0-rc.0',
+121 silly addNameRange     '1.5.0-rc.1',
+121 silly addNameRange     '1.4.9',
+121 silly addNameRange     '1.5.0-rc.2',
+121 silly addNameRange     '1.5.0',
+121 silly addNameRange     '1.5.1',
+121 silly addNameRange     '1.4.10',
+121 silly addNameRange     '1.5.2',
+121 silly addNameRange     '1.5.3',
+121 silly addNameRange     '1.5.5' ] ]
+122 silly addNamed angular@1.5.5
+123 verbose addNamed "1.5.5" is a plain semver version for angular
+124 verbose get https://registry.npmjs.org/chart.js not expired, no request
+125 silly addNameRange number 2 { name: 'chart.js', range: '>=2.0.0 <2.1.0', hasData: true }
+126 silly addNameRange versions [ 'chart.js',
+126 silly addNameRange   [ '1.0.1-beta.2',
+126 silly addNameRange     '1.0.1',
+126 silly addNameRange     '1.0.2',
+126 silly addNameRange     '1.1.0',
+126 silly addNameRange     '1.1.1',
+126 silly addNameRange     '2.0.0',
+126 silly addNameRange     '2.0.1',
+126 silly addNameRange     '2.0.2' ] ]
+127 silly addNamed chart.js@2.0.2
+128 verbose addNamed "2.0.2" is a plain semver version for chart.js
+129 silly cache afterAdd angular@1.5.5
+130 verbose afterAdd C:\Users\kenji\AppData\Roaming\npm-cache\angular\1.5.5\package\package.json not in flight; writing
+131 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+132 silly cache afterAdd chart.js@2.0.2
+133 verbose afterAdd C:\Users\kenji\AppData\Roaming\npm-cache\chart.js\2.0.2\package\package.json not in flight; writing
+134 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+135 verbose afterAdd C:\Users\kenji\AppData\Roaming\npm-cache\chart.js\2.0.2\package\package.json written
+136 verbose afterAdd C:\Users\kenji\AppData\Roaming\npm-cache\angular\1.5.5\package\package.json written
+137 silly fetchNamedPackageData chartjs-color
+138 silly mapToRegistry name chartjs-color
+139 silly mapToRegistry using default registry
+140 silly mapToRegistry registry https://registry.npmjs.org/
+141 silly mapToRegistry data Result {
+141 silly mapToRegistry   raw: 'chartjs-color',
+141 silly mapToRegistry   scope: null,
+141 silly mapToRegistry   name: 'chartjs-color',
+141 silly mapToRegistry   rawSpec: '',
+141 silly mapToRegistry   spec: 'latest',
+141 silly mapToRegistry   type: 'tag' }
+142 silly mapToRegistry uri https://registry.npmjs.org/chartjs-color
+143 silly fetchNamedPackageData moment
+144 silly mapToRegistry name moment
+145 silly mapToRegistry using default registry
+146 silly mapToRegistry registry https://registry.npmjs.org/
+147 silly mapToRegistry data Result {
+147 silly mapToRegistry   raw: 'moment',
+147 silly mapToRegistry   scope: null,
+147 silly mapToRegistry   name: 'moment',
+147 silly mapToRegistry   rawSpec: '',
+147 silly mapToRegistry   spec: 'latest',
+147 silly mapToRegistry   type: 'tag' }
+148 silly mapToRegistry uri https://registry.npmjs.org/moment
+149 verbose request uri https://registry.npmjs.org/chartjs-color
+150 verbose request no auth needed
+151 info attempt registry request try #1 at 11:55:27 AM
+152 verbose etag "4UFEFEW4SOJ27JBWV0171SYF8"
+153 http request GET https://registry.npmjs.org/chartjs-color
+154 verbose request uri https://registry.npmjs.org/moment
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 11:55:27 AM
+157 verbose etag "99SHVAWUGUYLGPV46KKJDVMHU"
+158 http request GET https://registry.npmjs.org/moment
+159 http 304 https://registry.npmjs.org/chartjs-color
+160 verbose headers { date: 'Thu, 28 Apr 2016 04:56:12 GMT',
+160 verbose headers   via: '1.1 varnish',
+160 verbose headers   'cache-control': 'max-age=300',
+160 verbose headers   etag: '"4UFEFEW4SOJ27JBWV0171SYF8"',
+160 verbose headers   age: '39',
+160 verbose headers   connection: 'keep-alive',
+160 verbose headers   'x-served-by': 'cache-sin6921-SIN',
+160 verbose headers   'x-cache': 'HIT',
+160 verbose headers   'x-cache-hits': '1',
+160 verbose headers   'x-timer': 'S1461819372.937294,VS0,VE0',
+160 verbose headers   vary: 'Accept-Encoding' }
+161 silly get cb [ 304,
+161 silly get   { date: 'Thu, 28 Apr 2016 04:56:12 GMT',
+161 silly get     via: '1.1 varnish',
+161 silly get     'cache-control': 'max-age=300',
+161 silly get     etag: '"4UFEFEW4SOJ27JBWV0171SYF8"',
+161 silly get     age: '39',
+161 silly get     connection: 'keep-alive',
+161 silly get     'x-served-by': 'cache-sin6921-SIN',
+161 silly get     'x-cache': 'HIT',
+161 silly get     'x-cache-hits': '1',
+161 silly get     'x-timer': 'S1461819372.937294,VS0,VE0',
+161 silly get     vary: 'Accept-Encoding' } ]
+162 verbose etag https://registry.npmjs.org/chartjs-color from cache
+163 verbose get saving chartjs-color to C:\Users\kenji\AppData\Roaming\npm-cache\registry.npmjs.org\chartjs-color\.cache.json
+164 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+165 http 304 https://registry.npmjs.org/moment
+166 verbose headers { date: 'Thu, 28 Apr 2016 04:56:12 GMT',
+166 verbose headers   via: '1.1 varnish',
+166 verbose headers   'cache-control': 'max-age=300',
+166 verbose headers   etag: '"99SHVAWUGUYLGPV46KKJDVMHU"',
+166 verbose headers   age: '274',
+166 verbose headers   connection: 'keep-alive',
+166 verbose headers   'x-served-by': 'cache-sin6927-SIN',
+166 verbose headers   'x-cache': 'HIT',
+166 verbose headers   'x-cache-hits': '8',
+166 verbose headers   'x-timer': 'S1461819372.953090,VS0,VE0',
+166 verbose headers   vary: 'Accept-Encoding' }
+167 silly get cb [ 304,
+167 silly get   { date: 'Thu, 28 Apr 2016 04:56:12 GMT',
+167 silly get     via: '1.1 varnish',
+167 silly get     'cache-control': 'max-age=300',
+167 silly get     etag: '"99SHVAWUGUYLGPV46KKJDVMHU"',
+167 silly get     age: '274',
+167 silly get     connection: 'keep-alive',
+167 silly get     'x-served-by': 'cache-sin6927-SIN',
+167 silly get     'x-cache': 'HIT',
+167 silly get     'x-cache-hits': '8',
+167 silly get     'x-timer': 'S1461819372.953090,VS0,VE0',
+167 silly get     vary: 'Accept-Encoding' } ]
+168 verbose etag https://registry.npmjs.org/moment from cache
+169 verbose get saving moment to C:\Users\kenji\AppData\Roaming\npm-cache\registry.npmjs.org\moment\.cache.json
+170 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+171 silly resolveWithNewModule chartjs-color@1.0.21 checking installable status
+172 silly cache add args [ 'chartjs-color@^1.0.2', null ]
+173 verbose cache add spec chartjs-color@^1.0.2
+174 silly cache add parsed spec Result {
+174 silly cache add   raw: 'chartjs-color@^1.0.2',
+174 silly cache add   scope: null,
+174 silly cache add   name: 'chartjs-color',
+174 silly cache add   rawSpec: '^1.0.2',
+174 silly cache add   spec: '>=1.0.2 <2.0.0',
+174 silly cache add   type: 'range' }
+175 silly addNamed chartjs-color@>=1.0.2 <2.0.0
+176 verbose addNamed ">=1.0.2 <2.0.0" is a valid semver range for chartjs-color
+177 silly addNameRange { name: 'chartjs-color',
+177 silly addNameRange   range: '>=1.0.2 <2.0.0',
+177 silly addNameRange   hasData: false }
+178 silly mapToRegistry name chartjs-color
+179 silly mapToRegistry using default registry
+180 silly mapToRegistry registry https://registry.npmjs.org/
+181 silly mapToRegistry data Result {
+181 silly mapToRegistry   raw: 'chartjs-color',
+181 silly mapToRegistry   scope: null,
+181 silly mapToRegistry   name: 'chartjs-color',
+181 silly mapToRegistry   rawSpec: '',
+181 silly mapToRegistry   spec: 'latest',
+181 silly mapToRegistry   type: 'tag' }
+182 silly mapToRegistry uri https://registry.npmjs.org/chartjs-color
+183 verbose addNameRange registry:https://registry.npmjs.org/chartjs-color not in flight; fetching
+184 verbose get https://registry.npmjs.org/chartjs-color not expired, no request
+185 silly addNameRange number 2 { name: 'chartjs-color', range: '>=1.0.2 <2.0.0', hasData: true }
+186 silly addNameRange versions [ 'chartjs-color', [ '0.8.2', '1.0.2', '1.0.21' ] ]
+187 silly addNamed chartjs-color@1.0.21
+188 verbose addNamed "1.0.21" is a plain semver version for chartjs-color
+189 silly resolveWithNewModule moment@2.13.0 checking installable status
+190 silly cache add args [ 'moment@^2.10.6', null ]
+191 verbose cache add spec moment@^2.10.6
+192 silly cache add parsed spec Result {
+192 silly cache add   raw: 'moment@^2.10.6',
+192 silly cache add   scope: null,
+192 silly cache add   name: 'moment',
+192 silly cache add   rawSpec: '^2.10.6',
+192 silly cache add   spec: '>=2.10.6 <3.0.0',
+192 silly cache add   type: 'range' }
+193 silly addNamed moment@>=2.10.6 <3.0.0
+194 verbose addNamed ">=2.10.6 <3.0.0" is a valid semver range for moment
+195 silly addNameRange { name: 'moment', range: '>=2.10.6 <3.0.0', hasData: false }
+196 silly mapToRegistry name moment
+197 silly mapToRegistry using default registry
+198 silly mapToRegistry registry https://registry.npmjs.org/
+199 silly mapToRegistry data Result {
+199 silly mapToRegistry   raw: 'moment',
+199 silly mapToRegistry   scope: null,
+199 silly mapToRegistry   name: 'moment',
+199 silly mapToRegistry   rawSpec: '',
+199 silly mapToRegistry   spec: 'latest',
+199 silly mapToRegistry   type: 'tag' }
+200 silly mapToRegistry uri https://registry.npmjs.org/moment
+201 verbose addNameRange registry:https://registry.npmjs.org/moment not in flight; fetching
+202 silly cache afterAdd chartjs-color@1.0.21
+203 verbose afterAdd C:\Users\kenji\AppData\Roaming\npm-cache\chartjs-color\1.0.21\package\package.json not in flight; writing
+204 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+205 verbose get https://registry.npmjs.org/moment not expired, no request
+206 silly addNameRange number 2 { name: 'moment', range: '>=2.10.6 <3.0.0', hasData: true }
+207 silly addNameRange versions [ 'moment',
+207 silly addNameRange   [ '1.0.0',
+207 silly addNameRange     '1.0.1',
+207 silly addNameRange     '1.1.0',
+207 silly addNameRange     '1.1.1',
+207 silly addNameRange     '1.2.0',
+207 silly addNameRange     '1.3.0',
+207 silly addNameRange     '1.4.0',
+207 silly addNameRange     '1.5.0',
+207 silly addNameRange     '1.5.1',
+207 silly addNameRange     '1.6.0',
+207 silly addNameRange     '1.6.1',
+207 silly addNameRange     '1.6.2',
+207 silly addNameRange     '1.7.0',
+207 silly addNameRange     '1.7.1',
+207 silly addNameRange     '1.7.2',
+207 silly addNameRange     '2.0.0',
+207 silly addNameRange     '2.1.0',
+207 silly addNameRange     '2.2.1',
+207 silly addNameRange     '2.3.0',
+207 silly addNameRange     '2.3.1',
+207 silly addNameRange     '2.4.0',
+207 silly addNameRange     '2.5.0',
+207 silly addNameRange     '2.5.1',
+207 silly addNameRange     '2.6.0',
+207 silly addNameRange     '2.7.0',
+207 silly addNameRange     '2.8.1',
+207 silly addNameRange     '2.8.2',
+207 silly addNameRange     '2.8.3',
+207 silly addNameRange     '2.8.4',
+207 silly addNameRange     '2.9.0',
+207 silly addNameRange     '2.10.2',
+207 silly addNameRange     '2.10.3',
+207 silly addNameRange     '2.10.5',
+207 silly addNameRange     '2.10.6',
+207 silly addNameRange     '2.11.0',
+207 silly addNameRange     '2.11.1',
+207 silly addNameRange     '2.11.2',
+207 silly addNameRange     '2.12.0',
+207 silly addNameRange     '2.13.0' ] ]
+208 silly addNamed moment@2.13.0
+209 verbose addNamed "2.13.0" is a plain semver version for moment
+210 silly cache afterAdd moment@2.13.0
+211 verbose afterAdd C:\Users\kenji\AppData\Roaming\npm-cache\moment\2.13.0\package\package.json not in flight; writing
+212 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+213 verbose afterAdd C:\Users\kenji\AppData\Roaming\npm-cache\chartjs-color\1.0.21\package\package.json written
+214 verbose afterAdd C:\Users\kenji\AppData\Roaming\npm-cache\moment\2.13.0\package\package.json written
+215 silly fetchNamedPackageData color-convert
+216 silly mapToRegistry name color-convert
+217 silly mapToRegistry using default registry
+218 silly mapToRegistry registry https://registry.npmjs.org/
+219 silly mapToRegistry data Result {
+219 silly mapToRegistry   raw: 'color-convert',
+219 silly mapToRegistry   scope: null,
+219 silly mapToRegistry   name: 'color-convert',
+219 silly mapToRegistry   rawSpec: '',
+219 silly mapToRegistry   spec: 'latest',
+219 silly mapToRegistry   type: 'tag' }
+220 silly mapToRegistry uri https://registry.npmjs.org/color-convert
+221 silly fetchOtherPackageData color-string@git://github.com/chartjs/color-string.git
+222 silly cache add args [ 'color-string@git://github.com/chartjs/color-string.git',
+222 silly cache add   null ]
+223 verbose cache add spec color-string@git://github.com/chartjs/color-string.git
+224 silly cache add parsed spec Result {
+224 silly cache add   raw: 'color-string@git://github.com/chartjs/color-string.git',
+224 silly cache add   scope: null,
+224 silly cache add   name: 'color-string',
+224 silly cache add   rawSpec: 'git://github.com/chartjs/color-string.git',
+224 silly cache add   spec: 'git://github.com/chartjs/color-string.git',
+224 silly cache add   type: 'hosted',
+224 silly cache add   hosted:
+224 silly cache add    { type: 'github',
+224 silly cache add      ssh: 'git@github.com:chartjs/color-string.git',
+224 silly cache add      sshUrl: 'git+ssh://git@github.com/chartjs/color-string.git',
+224 silly cache add      httpsUrl: 'git+https://github.com/chartjs/color-string.git',
+224 silly cache add      gitUrl: 'git://github.com/chartjs/color-string.git',
+224 silly cache add      shortcut: 'github:chartjs/color-string',
+224 silly cache add      directUrl: 'https://raw.githubusercontent.com/chartjs/color-string/master/package.json' } }
+225 verbose addRemoteGit caching git://github.com/chartjs/color-string.git
+226 verbose addRemoteGit git://github.com/chartjs/color-string.git is a repository hosted by github
+227 silly tryClone cloning git://github.com/chartjs/color-string.git via git://github.com/chartjs/color-string.git
+228 verbose tryClone git-github-com-chartjs-color-string-git-f2ab8cea not in flight; caching
+229 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes correctMkdir not in flight; initializing
+230 verbose request uri https://registry.npmjs.org/color-convert
+231 verbose request no auth needed
+232 info attempt registry request try #1 at 11:55:27 AM
+233 verbose etag "1VDNG2OA4IKFKE0S0OXSO1JMS"
+234 http request GET https://registry.npmjs.org/color-convert
+235 info git [ 'config', '--get', 'remote.origin.url' ]
+236 silly validateExistingRemote git://github.com/chartjs/color-string.git remote.origin.url: git://github.com/chartjs/color-string.git
+237 verbose validateExistingRemote git://github.com/chartjs/color-string.git is updating existing cached remote C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea
+238 info git [ 'fetch', '-a', 'origin' ]
+239 http 304 https://registry.npmjs.org/color-convert
+240 verbose headers { date: 'Thu, 28 Apr 2016 04:56:13 GMT',
+240 verbose headers   via: '1.1 varnish',
+240 verbose headers   'cache-control': 'max-age=300',
+240 verbose headers   etag: '"1VDNG2OA4IKFKE0S0OXSO1JMS"',
+240 verbose headers   age: '126',
+240 verbose headers   connection: 'keep-alive',
+240 verbose headers   'x-served-by': 'cache-sin6925-SIN',
+240 verbose headers   'x-cache': 'HIT',
+240 verbose headers   'x-cache-hits': '1',
+240 verbose headers   'x-timer': 'S1461819373.271902,VS0,VE0',
+240 verbose headers   vary: 'Accept-Encoding' }
+241 silly get cb [ 304,
+241 silly get   { date: 'Thu, 28 Apr 2016 04:56:13 GMT',
+241 silly get     via: '1.1 varnish',
+241 silly get     'cache-control': 'max-age=300',
+241 silly get     etag: '"1VDNG2OA4IKFKE0S0OXSO1JMS"',
+241 silly get     age: '126',
+241 silly get     connection: 'keep-alive',
+241 silly get     'x-served-by': 'cache-sin6925-SIN',
+241 silly get     'x-cache': 'HIT',
+241 silly get     'x-cache-hits': '1',
+241 silly get     'x-timer': 'S1461819373.271902,VS0,VE0',
+241 silly get     vary: 'Accept-Encoding' } ]
+242 verbose etag https://registry.npmjs.org/color-convert from cache
+243 verbose get saving color-convert to C:\Users\kenji\AppData\Roaming\npm-cache\registry.npmjs.org\color-convert\.cache.json
+244 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+245 silly resolveWithNewModule color-convert@0.5.3 checking installable status
+246 silly cache add args [ 'color-convert@^0.5.0', null ]
+247 verbose cache add spec color-convert@^0.5.0
+248 silly cache add parsed spec Result {
+248 silly cache add   raw: 'color-convert@^0.5.0',
+248 silly cache add   scope: null,
+248 silly cache add   name: 'color-convert',
+248 silly cache add   rawSpec: '^0.5.0',
+248 silly cache add   spec: '>=0.5.0 <0.6.0',
+248 silly cache add   type: 'range' }
+249 silly addNamed color-convert@>=0.5.0 <0.6.0
+250 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for color-convert
+251 silly addNameRange { name: 'color-convert',
+251 silly addNameRange   range: '>=0.5.0 <0.6.0',
+251 silly addNameRange   hasData: false }
+252 silly mapToRegistry name color-convert
+253 silly mapToRegistry using default registry
+254 silly mapToRegistry registry https://registry.npmjs.org/
+255 silly mapToRegistry data Result {
+255 silly mapToRegistry   raw: 'color-convert',
+255 silly mapToRegistry   scope: null,
+255 silly mapToRegistry   name: 'color-convert',
+255 silly mapToRegistry   rawSpec: '',
+255 silly mapToRegistry   spec: 'latest',
+255 silly mapToRegistry   type: 'tag' }
+256 silly mapToRegistry uri https://registry.npmjs.org/color-convert
+257 verbose addNameRange registry:https://registry.npmjs.org/color-convert not in flight; fetching
+258 verbose get https://registry.npmjs.org/color-convert not expired, no request
+259 silly addNameRange number 2 { name: 'color-convert', range: '>=0.5.0 <0.6.0', hasData: true }
+260 silly addNameRange versions [ 'color-convert',
+260 silly addNameRange   [ '0.1.0',
+260 silly addNameRange     '0.2.0',
+260 silly addNameRange     '0.2.1',
+260 silly addNameRange     '0.3.0',
+260 silly addNameRange     '0.3.1',
+260 silly addNameRange     '0.3.4',
+260 silly addNameRange     '0.4.0',
+260 silly addNameRange     '0.5.0',
+260 silly addNameRange     '0.5.1',
+260 silly addNameRange     '0.5.2',
+260 silly addNameRange     '0.5.3',
+260 silly addNameRange     '0.6.0',
+260 silly addNameRange     '0.7.0',
+260 silly addNameRange     '1.0.0',
+260 silly addNameRange     '1.1.0',
+260 silly addNameRange     '1.1.1',
+260 silly addNameRange     '1.1.2',
+260 silly addNameRange     '1.2.0',
+260 silly addNameRange     '1.2.1',
+260 silly addNameRange     '1.2.2',
+260 silly addNameRange     '1.3.0',
+260 silly addNameRange     '1.3.1' ] ]
+261 silly addNamed color-convert@0.5.3
+262 verbose addNamed "0.5.3" is a plain semver version for color-convert
+263 silly cache afterAdd color-convert@0.5.3
+264 verbose afterAdd C:\Users\kenji\AppData\Roaming\npm-cache\color-convert\0.5.3\package\package.json not in flight; writing
+265 verbose correctMkdir C:\Users\kenji\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+266 verbose afterAdd C:\Users\kenji\AppData\Roaming\npm-cache\color-convert\0.5.3\package\package.json written
+267 verbose updateRemote git fetch -a origin (git://github.com/chartjs/color-string.git)
+268 verbose setPermissions git://github.com/chartjs/color-string.git skipping chownr on Windows
+269 verbose resolveHead git://github.com/chartjs/color-string.git original treeish: master
+270 info git [ 'rev-list', '-n1', 'master' ]
+271 silly resolveHead git://github.com/chartjs/color-string.git resolved treeish: 4a7753e7e10d6c8e8bb21c0da97d072f42e2e885
+272 verbose resolveHead git://github.com/chartjs/color-string.git resolved Git URL: git://github.com/chartjs/color-string.git#4a7753e7e10d6c8e8bb21c0da97d072f42e2e885
+273 silly resolveHead Git working directory: C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885
+274 info git [ 'clone',
+274 info git   'C:\\Users\\kenji\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-chartjs-color-string-git-f2ab8cea',
+274 info git   'C:\\Users\\kenji\\.babun\\cygwin\\tmp\\npm-4836-ce1656aa\\git-cache-ef61a75a\\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885' ]
+275 error git clone C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885: Cloning into 'C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885'...
+275 error git clone C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885: fatal: '/cygdrive/c/Users/kenji/AppData/Roaming/npm-cache/_git-remotes/git-github-com-chartjs-color-string-git-f2ab8cea/C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea' does not appear to be a git repository
+275 error git clone C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885: fatal: Could not read from remote repository.
+275 error git clone C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885:
+275 error git clone C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885: Please make sure you have the correct access rights
+275 error git clone C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885: and the repository exists.
+276 silly fetchPackageMetaData Error: Command failed: git -c core.longpaths=true clone C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885
+276 silly fetchPackageMetaData Cloning into 'C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885'...
+276 silly fetchPackageMetaData fatal: '/cygdrive/c/Users/kenji/AppData/Roaming/npm-cache/_git-remotes/git-github-com-chartjs-color-string-git-f2ab8cea/C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea' does not appear to be a git repository
+276 silly fetchPackageMetaData fatal: Could not read from remote repository.
+276 silly fetchPackageMetaData
+276 silly fetchPackageMetaData Please make sure you have the correct access rights
+276 silly fetchPackageMetaData and the repository exists.
+276 silly fetchPackageMetaData
+276 silly fetchPackageMetaData     at ChildProcess.exithandler (child_process.js:213:12)
+276 silly fetchPackageMetaData     at emitTwo (events.js:87:13)
+276 silly fetchPackageMetaData     at ChildProcess.emit (events.js:172:7)
+276 silly fetchPackageMetaData     at maybeClose (internal/child_process.js:821:16)
+276 silly fetchPackageMetaData     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+276 silly fetchPackageMetaData  error for color-string@git://github.com/chartjs/color-string.git { [Error: Command failed: git -c core.longpaths=true clone C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885
+276 silly fetchPackageMetaData Cloning into 'C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885'...
+276 silly fetchPackageMetaData fatal: '/cygdrive/c/Users/kenji/AppData/Roaming/npm-cache/_git-remotes/git-github-com-chartjs-color-string-git-f2ab8cea/C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea' does not appear to be a git repository
+276 silly fetchPackageMetaData fatal: Could not read from remote repository.
+276 silly fetchPackageMetaData
+276 silly fetchPackageMetaData Please make sure you have the correct access rights
+276 silly fetchPackageMetaData and the repository exists.
+276 silly fetchPackageMetaData ]
+276 silly fetchPackageMetaData   killed: false,
+276 silly fetchPackageMetaData   code: 128,
+276 silly fetchPackageMetaData   signal: null,
+276 silly fetchPackageMetaData   cmd: 'git -c core.longpaths=true clone C:\\Users\\kenji\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-chartjs-color-string-git-f2ab8cea C:\\Users\\kenji\\.babun\\cygwin\\tmp\\npm-4836-ce1656aa\\git-cache-ef61a75a\\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885' }
+277 silly rollbackFailedOptional Starting
+278 silly rollbackFailedOptional Finishing
+279 silly runTopLevelLifecycles Starting
+280 silly runTopLevelLifecycles Finishing
+281 silly install printInstalled
+282 verbose stack Error: Command failed: git -c core.longpaths=true clone C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885
+282 verbose stack Cloning into 'C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885'...
+282 verbose stack fatal: '/cygdrive/c/Users/kenji/AppData/Roaming/npm-cache/_git-remotes/git-github-com-chartjs-color-string-git-f2ab8cea/C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea' does not appear to be a git repository
+282 verbose stack fatal: Could not read from remote repository.
+282 verbose stack
+282 verbose stack Please make sure you have the correct access rights
+282 verbose stack and the repository exists.
+282 verbose stack
+282 verbose stack     at ChildProcess.exithandler (child_process.js:213:12)
+282 verbose stack     at emitTwo (events.js:87:13)
+282 verbose stack     at ChildProcess.emit (events.js:172:7)
+282 verbose stack     at maybeClose (internal/child_process.js:821:16)
+282 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+283 verbose cwd C:\Users\kenji\Desktop\monitor\wifi-scan
+284 error Windows_NT 6.2.9200
+285 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Users\\kenji\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "angular-chart.js"
+286 error node v4.2.6
+287 error npm  v3.8.7
+288 error code 128
+289 error Command failed: git -c core.longpaths=true clone C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885
+289 error Cloning into 'C:\Users\kenji\.babun\cygwin\tmp\npm-4836-ce1656aa\git-cache-ef61a75a\4a7753e7e10d6c8e8bb21c0da97d072f42e2e885'...
+289 error fatal: '/cygdrive/c/Users/kenji/AppData/Roaming/npm-cache/_git-remotes/git-github-com-chartjs-color-string-git-f2ab8cea/C:\Users\kenji\AppData\Roaming\npm-cache\_git-remotes\git-github-com-chartjs-color-string-git-f2ab8cea' does not appear to be a git repository
+289 error fatal: Could not read from remote repository.
+289 error
+289 error Please make sure you have the correct access rights
+289 error and the repository exists.
+290 error If you need help, you may report this error at:
+290 error     <https://github.com/npm/npm/issues>
+291 verbose exit [ 1, true ]
