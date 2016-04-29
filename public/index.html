@@ -11,14 +11,13 @@
       <script src="Chart.js"></script>
       <script src="app.js"></script>
 
-
 </head>
 <body ng-app="myApp">
 
   <div ng-controller="Controller" >
     <h1 align="center">WLanScan</h1>
     <div class="graph">
-      <canvas  id="iot" width="1500" height="300	"></canvas>
+      <canvas  id="iot" height="100"></canvas>
     </div>
     <!-- bar chart canvas element -->
      <!-- <div  ng-repeat = "data in wifidata"  class = "row">
@@ -39,7 +38,7 @@
     <tr ng-repeat = "data in wifidata" >
       <td>{{$index+1}}</td>
       <td>{{data.ssid}}</td>
-      <td>{{ 2*(data.rssi+100) }}</td>
+      <td>{{ 2*(data.rssi+100) }}%</td>
       <td>{{data.mac}}</td>
       <td>{{data.channel}}</td>
   </tr>

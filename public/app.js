@@ -39,6 +39,6 @@ myApp.controller('Controller', function ($scope, $http) {
       // get bar chart canvas
       var iot = document.getElementById('iot').getContext('2d')
       // draw bar chart
-      new Chart(iot).Bar(barData)
+      new Chart(iot).Line(barData,{responsive: true})
     })
 })
