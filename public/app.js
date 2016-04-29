@@ -1,3 +1,4 @@
+/* global angular */
 var myApp = angular.module('myApp', [])
 myApp.controller('Controller', function ($scope, $http) {
   $scope.message = 'Hello AngularJS'
@@ -9,39 +10,32 @@ myApp.controller('Controller', function ($scope, $http) {
 
       function dataBar () {
         var dataArray = []
-        $scope.wifidata.forEach(function (err, data) {
-          var ndata = {
-            rssi: 2 * ($scope.wifidata[data].rssi + 100)
-          }
-          dataArray.push(ndata.rssi)
-        })
-        return dataArray
-      }
-      function labelsBar () {
         var labelsArray = []
         $scope.wifidata.forEach(function (err, data) {
           var ndata = {
-            ssid: $scope.wifidata[data].ssid,
+            rssi: 2 * ($scope.wifidata[data].rssi + 100),
+            ssid: $scope.wifidata[data].ssid
           }
+          dataArray.push(ndata.rssi)
           labelsArray.push(ndata.ssid)
         })
-        return labelsArray
+        return {da: dataArray, label: labelsArray}
       }
 
       var barData = {
-        labels: labelsBar(),
+        labels: dataBar().label,
         datasets: [
           {
             label: 'test',
             fillColor: 'rgba(255,255,0,0.6)',
             strokeColor: 'rgba(72,174,209,0.4)',
             borderWidth: 1,
-            data: dataBar()
+            data: dataBar().da
           }
         ]
       }
-      console.log(dataBar())
-      console.log(labelsBar())
+      console.log(dataBar().da)
+      console.log(dataBar().label)
       // get bar chart canvas
       var iot = document.getElementById('iot').getContext('2d')
       // draw bar chart
