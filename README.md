@@ -1,5 +1,6 @@
 ## Step use wifi-scanner
 ## WLan scanner
+![](http://www.mx7.com/i/cba/PTxXH2.JPG)
 ### 1. Clone
 ######ทำการ clone folder ลงบนเครื่องเรา
 ```
