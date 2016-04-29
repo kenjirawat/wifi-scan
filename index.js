@@ -29,7 +29,7 @@ scanner.scan((err, networks) => {
     res.send(networks)
   })
 })
-}, 1000)
+}, 5000)
 
 app.use(express.static('public'))
 

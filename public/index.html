@@ -15,10 +15,11 @@
 </head>
 <body ng-app="myApp">
 
-
   <div ng-controller="Controller" >
-    <h2>Wifi scanner</h2>
-    <canvas id="iot" width="1500" height="200	"></canvas>
+    <h1 align="center">WLanScan</h1>
+    <div class="graph">
+      <canvas  id="iot" width="1500" height="300	"></canvas>
+    </div>
     <!-- bar chart canvas element -->
      <!-- <div  ng-repeat = "data in wifidata"  class = "row">
         <div class="col-md-3">{{data.ssid}}</div>
@@ -26,6 +27,7 @@
         <div class="col-md-3">{{data.mac}}</div>
      </div>
      <br> -->
+     <!-- <h2>Table Wifi scanner</h2> -->
      <table class="table table-hover table-condensed" align="center">
       <tr class="success">
         <td>#</td>
@@ -37,14 +39,12 @@
     <tr ng-repeat = "data in wifidata" >
       <td>{{$index+1}}</td>
       <td>{{data.ssid}}</td>
-      <td>{{data.rssi}}</td>
+      <td>{{ 2*(data.rssi+100) }}</td>
       <td>{{data.mac}}</td>
       <td>{{data.channel}}</td>
   </tr>
     </table>
-     <!-- <div class="graph">
-      <canvas id="iot" width="1500" height="200	"></canvas>
-    </div> -->
+
 
 
   </div>
