@@ -36,9 +36,11 @@ myApp.controller('Controller', function ($scope, $http) {
       }
       console.log(dataBar().da)
       console.log(dataBar().label)
-      // get bar chart canvas
-      var iot = document.getElementById('iot').getContext('2d')
-      // draw bar chart
-      new Chart(iot).Line(barData,{responsive: true})
+      // get bar chart canvas and draw bar chart
+      setInterval(function () {
+        var iot = document.getElementById('iot').getContext('2d')
+        new Chart(iot).Line(barData, {responsive: true})
+      }, 5000)
     })
+    setInterval('dataBar()', 5000)
 })
